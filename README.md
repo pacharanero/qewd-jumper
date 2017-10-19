@@ -24,7 +24,7 @@ The command `jumper` automates some of the manual processes of using openEHR arc
 
 
 ## `install`
-`jumper install template <template-url> ( <template-name> )`
+`jumper install template <template-url> [ <template-name> ]`
 
 ### actions
 * pulls the relevant openEHR template from the CKM where it is stored
