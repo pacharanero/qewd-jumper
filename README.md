@@ -10,6 +10,7 @@ A really nice way to see this in action is in the original 2005 Rails demo by it
 
 Prior to this, web application developers had been doing a lot of the internal 'wiring' of software objects to database columns and UI elements by hand. Rails massively augmented developer productivity and paved the way for a panoply of similar frameworks in other languages, such as Django in Python.
 
+### Manual Ripple/openEHR setup tasks at things are now
 Currently when setting up the Ripple Showcase stack, there are a number of manual tasks to be undertaken:
 
 *In the openEHR clinical document repository:*
@@ -26,6 +27,7 @@ Currently when setting up the Ripple Showcase stack, there are a number of manua
 
 Use of a decoupled external command utility to automate this setup 'boilerplate' enables the tooling to remain agnostic as to the choice of UI/frontend, middleware/application, and openEHR CDR. This project will initially concentrate on the Ripple showcase stack - [Pulsetile](https://github.com/PulseTile/PulseTile) UI (available in both [Angular](https://angular.io/) or [React](https://reactjs.org/) flavours)  [QEWD](https://github.com/robtweed/qewd) middleware, and [EtherCIS](https://github.com/ethercis/ethercis) openEHR repository. However in the future, the scope of the toll could be extended by the use of plugins to enable it to configure other combinations of openEHR stack.
 
+### Things that qewd-jumper does for you
 Qewd-jumper reduces the work involved in setting up the Ripple stack:
 
 * provides curated groups of basic templates to provide functionality for common clinical requirements
@@ -48,7 +50,7 @@ Note that this is not an attempt to turn Ripple-Qewd into Ruby on Rails, it's si
 -----
 
 # Installation
-`npm install qewd-jumper` installs qewd-jumper and all dependencies. The command `jumper` will be added to your $PATH
+`npm install -g qewd-jumper` installs qewd-jumper and all dependencies. The command `jumper` will be added to your $PATH
 
 -----
 
